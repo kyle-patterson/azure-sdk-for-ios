@@ -1,0 +1,54 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/brsiegel/source/repos/azure-sdk/ios/sdk/communication/AzureCommunication/Source/Authentication/CommunicationAuthenticationPolicy.swift",
+      "line": 35,
+      "symbol": "CommunicationUserCredentialPolicy.next",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brsiegel/source/repos/azure-sdk/ios/sdk/communication/AzureCommunication/Source/Authentication/CommunicationUserCredential.swift",
+      "line": 32,
+      "symbol": "AccessTokenRefreshOnCompletion",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brsiegel/source/repos/azure-sdk/ios/sdk/communication/AzureCommunication/Source/Authentication/CommunicationUserCredential.swift",
+      "line": 33,
+      "symbol": "TokenRefreshOnCompletion",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brsiegel/source/repos/azure-sdk/ios/sdk/communication/AzureCommunication/Source/Identifiers.swift",
+      "line": 37,
+      "symbol": "CommunicationUser.identifier",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brsiegel/source/repos/azure-sdk/ios/sdk/communication/AzureCommunication/Source/Identifiers.swift",
+      "line": 50,
+      "symbol": "CallingApplication.identifier",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brsiegel/source/repos/azure-sdk/ios/sdk/communication/AzureCommunication/Source/Identifiers.swift",
+      "line": 63,
+      "symbol": "UnknownIdentifier.identifier",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/brsiegel/source/repos/azure-sdk/ios/sdk/communication/AzureCommunication/Source/Identifiers.swift",
+      "line": 76,
+      "symbol": "PhoneNumber.value",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/brsiegel/source/repos/azure-sdk/ios"
+}
