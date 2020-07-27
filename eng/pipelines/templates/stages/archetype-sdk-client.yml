@@ -17,3 +17,22 @@ stages:
     - template: ../jobs/archetype-sdk-client.yml
       parameters:
         BuildScheme: ${{parameters.BuildScheme}}
+
+  - ${{if and(ne(variables['Build.Reason'], 'PullRequest'), eq(variables['System.TeamProject'], 'internal'))}}:
+    - stage: Release
+      jobs:
+      - deployment: TagRepository
+        displayName: "Create release tag"
+        environment: github
+        timeoutInMinutes: 5
+        variables:
+          - template: ../variables/globals.yml
+        pool:
+          vmImage: vs2017-win2016
+        strategy:
+          runOnce:
+            deploy:
+              steps:
+                - checkout: self
+                - script: |
+                    echo "Hello, world!"
